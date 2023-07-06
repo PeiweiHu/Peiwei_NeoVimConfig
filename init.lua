@@ -4,8 +4,11 @@ require('options')
 -- enable plugins by packer
 require('plugins')
 
--- key bindings
+-- keybindings
 require('keybindings')
+
+-- theme
+require('theme')
 
 
 -- plugin setup
@@ -33,3 +36,4 @@ require('plugin-config.bufferline')
 
 -- status line
 require('plugin-config.lualine')
+

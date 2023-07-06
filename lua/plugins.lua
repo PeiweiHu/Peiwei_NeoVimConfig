@@ -5,6 +5,18 @@ packer.startup(
     -- package manager
     use 'wbthomason/packer.nvim'
 
+    -- theme - tokyonight
+    use 'folke/tokyonight.nvim'
+
+    -- banner
+    use {
+      "startup-nvim/startup.nvim",
+      requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+      config = function()
+        require"startup".setup(require'plugin-config.startup')
+      end
+    }
+
     -- lsp support
     use {
         "williamboman/mason.nvim",
