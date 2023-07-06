@@ -21,3 +21,6 @@ require('plugin-config.lspsaga')
 
 -- required by lspsaga, also highlight code
 require('plugin-config.nvim-treesitter')
+
+-- autocomplete
+require('plugin-config.nvim-cmp')
