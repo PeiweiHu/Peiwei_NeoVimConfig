@@ -17,6 +17,12 @@ packer.startup(
       end
     }
 
+    -- git support
+    use 'lewis6991/gitsigns.nvim'
+
+    -- fold support
+    use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
+
     -- lsp support
     use {
         "williamboman/mason.nvim",

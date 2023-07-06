@@ -1,3 +1,6 @@
+vim.g.mapleader = ';'
+vim.g.maplocalleader = ';'
+
 local opt = {noremap = true, silent = true }
 
 -- nvim-tree - open/close file tree
@@ -12,3 +15,9 @@ vim.keymap.set('n', '<F10>', ':Telescope live_grep<CR>', opt)
 vim.keymap.set('n', '<C-p>', ':BufferLineCyclePrev<CR>', opt)
 vim.keymap.set('n', '<C-n>', ':BufferLineCycleNext<CR>', opt)
 vim.keymap.set('n', '<C-q>', ':Bdelete!<CR>', opt)
+
+-- ufo - fold code
+vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
+vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
+vim.keymap.set('n', 'zr', ':foldopen<cr>')
+vim.keymap.set('n', 'zm', ':foldclose<cr>')

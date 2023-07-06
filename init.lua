@@ -37,3 +37,8 @@ require('plugin-config.bufferline')
 -- status line
 require('plugin-config.lualine')
 
+-- git support
+require('plugin-config.gitsigns')
+
+-- fold support
+require('plugin-config.ufo')
