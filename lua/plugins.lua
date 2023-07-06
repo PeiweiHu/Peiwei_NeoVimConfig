@@ -8,6 +8,12 @@ packer.startup(
     -- theme - tokyonight
     use 'folke/tokyonight.nvim'
 
+    -- theme - github
+    use ({ 'projekt0n/github-nvim-theme' })
+
+    -- remove trailing whitespace and empty lines
+    use 'mcauley-penney/tidy.nvim'
+
     -- banner
     use {
       "startup-nvim/startup.nvim",
@@ -86,6 +92,17 @@ packer.startup(
         "hrsh7th/cmp-cmdline", -- { name = 'cmdline' }
         -- common code snippet
         "rafamadriz/friendly-snippets",
+    }
+
+    -- bookmarks
+    use {
+        'crusj/bookmarks.nvim',
+        branch = 'main',
+        requires = { 'kyazdani42/nvim-web-devicons' },
+        config = function()
+            require("bookmarks").setup()
+            require("telescope").load_extension("bookmarks")
+        end
     }
 
 end)

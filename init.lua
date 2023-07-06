@@ -28,7 +28,7 @@ require('plugin-config.nvim-treesitter')
 -- autocomplete
 require('plugin-config.nvim-cmp')
 
--- file tree 
+-- file tree
 require('plugin-config.nvim-tree')
 
 -- tab page
@@ -42,3 +42,9 @@ require('plugin-config.gitsigns')
 
 -- fold support
 require('plugin-config.ufo')
+
+-- remove trailing whitespace and empty line
+require('plugin-config.tidy')
+
+-- bookmark support
+require('plugin-config.bookmarks')
