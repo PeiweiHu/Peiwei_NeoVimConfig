@@ -34,6 +34,16 @@ packer.startup(
         }
     })
 
+    -- status line
+    use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
+
+    -- bufferline
+    use {'akinsho/bufferline.nvim', tag = "*", requires = {'nvim-tree/nvim-web-devicons', 'moll/vim-bbye'}}
+
+    -- file tree
     use {
       'nvim-tree/nvim-tree.lua',
       requires = {

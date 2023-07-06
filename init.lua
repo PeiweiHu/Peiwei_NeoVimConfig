@@ -27,3 +27,9 @@ require('plugin-config.nvim-cmp')
 
 -- file tree 
 require('plugin-config.nvim-tree')
+
+-- tab page
+require('plugin-config.bufferline')
+
+-- status line
+require('plugin-config.lualine')
