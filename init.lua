@@ -24,3 +24,6 @@ require('plugin-config.nvim-treesitter')
 
 -- autocomplete
 require('plugin-config.nvim-cmp')
+
+-- file tree 
+require('plugin-config.nvim-tree')

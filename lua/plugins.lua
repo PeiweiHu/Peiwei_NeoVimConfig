@@ -28,6 +28,13 @@ packer.startup(
         }
     })
 
+    use {
+      'nvim-tree/nvim-tree.lua',
+      requires = {
+        'nvim-tree/nvim-web-devicons', -- optional
+      },
+    }
+
     -- highlight (and fold, incremental selection)
     use 'nvim-treesitter/nvim-treesitter'
 
