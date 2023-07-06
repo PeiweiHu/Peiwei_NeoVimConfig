@@ -1,5 +1,9 @@
 # Peiwei_NeoVimConfig
 
+<p align='center'>
+<img width="85%" alt="edit area" src="https://github.com/PeiweiHu/Peiwei_NeoVimConfig/assets/58985155/74c29489-2265-46e6-836d-64fde0a280c2">
+</p>
+
 ## Setup
 
 ### Step 0. Requirements
