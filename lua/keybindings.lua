@@ -1,7 +1,11 @@
 vim.g.mapleader = ';'
 vim.g.maplocalleader = ';'
-
 local opt = {noremap = true, silent = true }
+
+-- basic keymaps
+vim.keymap.set('n', '<C-s>', ':w<CR>', opt)
+vim.keymap.set('n', '<C-j>', '4j')
+vim.keymap.set('n', '<C-k>', '4k')
 
 -- nvim-tree - open/close file tree
 vim.keymap.set('n', '<F3>', ':NvimTreeToggle<CR>', opt)

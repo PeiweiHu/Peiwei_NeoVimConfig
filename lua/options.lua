@@ -7,7 +7,7 @@ vim.wo.relativenumber = true
 -- replace <tab> with <space>
 vim.o.expandtab = true
 vim.bo.expandtab = true
--- set indent as 4 
+-- set indent as 4
 vim.o.shiftwidth = 4
 vim.bo.shiftwidth = 4
 -- autoindent and smartindent
