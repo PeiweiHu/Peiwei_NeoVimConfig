@@ -1,8 +1,8 @@
 # Peiwei_NeoVimConfig
 
 <p align='center'>
-<img width="85%" alt="edit area" src="https://github.com/PeiweiHu/Peiwei_NeoVimConfig/assets/58985155/a2bc4d97-5221-4072-9fa1-bcbad1b49ef9">
-<img width="85%" alt="edit area" src="https://github.com/PeiweiHu/Peiwei_NeoVimConfig/assets/58985155/74c29489-2265-46e6-836d-64fde0a280c2">
+<img width="85%" alt="banner" src="https://github.com/PeiweiHu/Peiwei_NeoVimConfig/assets/58985155/74cffe67-737a-4256-b98d-acfe43289a0d">
+<img width="85%" alt="edit area" src="https://github.com/PeiweiHu/Peiwei_NeoVimConfig/assets/58985155/7caa541e-0159-4490-a362-9da00b5122c1">
 </p>
 
 ## Setup
