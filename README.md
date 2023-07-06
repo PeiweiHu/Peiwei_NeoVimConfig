@@ -19,7 +19,7 @@ We use packer.nvim to manage various plugins, you can refer to [this](https://gi
 ### Step 2. Clone This Repository
 
 ```
-git clone https://github.com/XXX ~/.config/nvim
+git clone https://github.com/PeiweiHu/Peiwei_NeoVimConfig.git ~/.config/nvim
 ```
 
 ### Step 3. Install Plugins
