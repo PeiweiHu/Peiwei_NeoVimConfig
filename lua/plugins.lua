@@ -12,6 +12,12 @@ packer.startup(
         "neovim/nvim-lspconfig",
     }
 
+    -- search
+    use {
+      'nvim-telescope/telescope.nvim', tag = '0.1.2',
+      requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
     -- enhance the lsp experience
     use({
         "glepnir/lspsaga.nvim",
