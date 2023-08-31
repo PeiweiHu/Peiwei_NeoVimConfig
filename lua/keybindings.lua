@@ -4,8 +4,10 @@ local opt = {noremap = true, silent = true }
 
 -- basic keymaps
 vim.keymap.set('n', '<C-s>', ':w<CR>', opt)
-vim.keymap.set('n', '<C-j>', '4j')
-vim.keymap.set('n', '<C-k>', '4k')
+vim.keymap.set('n', '<C-j>', '4<C-e>', opt)
+vim.keymap.set('n', '<C-k>', '4<C-y>', opt)
+vim.keymap.set('n', '<C-h>', '<C-w><C-h>', opt)
+vim.keymap.set('n', '<C-l>', '<C-w><C-l>', opt)
 
 -- nvim-tree - open/close file tree
 vim.keymap.set('n', '<F3>', ':NvimTreeToggle<CR>', opt)

@@ -43,20 +43,14 @@ packer.startup(
     }
 
     -- enhance the lsp experience
-    use({
-        "glepnir/lspsaga.nvim",
-        opt = true,
-        branch = "main",
-        event = "LspAttach",
+    use ({
+        'nvimdev/lspsaga.nvim',
+        after = 'nvim-lspconfig',
         config = function()
-            require("lspsaga").setup({})
+            require('lspsaga').setup({})
         end,
-        requires = {
-            {"nvim-tree/nvim-web-devicons"},
-            --Please make sure you install markdown and markdown_inline parser
-            {"nvim-treesitter/nvim-treesitter"}
-        }
     })
+
 
     -- status line
     use {
@@ -87,11 +81,11 @@ packer.startup(
         -- completion source
         "hrsh7th/cmp-vsnip",
         "hrsh7th/cmp-nvim-lsp", -- { name = nvim_lsp }
-        "hrsh7th/cmp-buffer", -- { name = 'buffer' },
+        -- "hrsh7th/cmp-buffer", -- { name = 'buffer' },
         "hrsh7th/cmp-path", -- { name = 'path' }
-        "hrsh7th/cmp-cmdline", -- { name = 'cmdline' }
+        -- "hrsh7th/cmp-cmdline", -- { name = 'cmdline' }
         -- common code snippet
-        "rafamadriz/friendly-snippets",
+        -- "rafamadriz/friendly-snippets",
     }
 
     -- bookmarks
