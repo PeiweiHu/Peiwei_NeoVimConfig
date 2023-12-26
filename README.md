@@ -26,7 +26,11 @@ git clone https://github.com/PeiweiHu/Peiwei_NeoVimConfig.git ~/.config/nvim
 
 Type `:PackerSync` to install required plugins after entering nvim.
 
-### Step 4. Enjoy Coding
+### Step 4. Install Lsp
+
+Type `:Mason` and choose 2 to install desired lsp such as pyright.
+
+### Step 5. Enjoy Coding
 
 Until now, your editor should start working with rich convenient features. Note that there are language-specific features, such as syntax highlighting, that you may need to further set up depending on your desired language, see the section below (Setup for New language).
 

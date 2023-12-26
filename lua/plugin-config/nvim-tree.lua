@@ -8,7 +8,6 @@ require('nvim-tree').setup({
     view = {
         width = 30,
         side = 'left',
-        hide_root_folder = false,
     },
     actions = {
         open_file = {
