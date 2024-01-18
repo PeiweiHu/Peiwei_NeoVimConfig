@@ -8,6 +8,8 @@ packer.startup(
     -- theme - tokyonight
     use 'folke/tokyonight.nvim'
 
+    use { 'nvim-tree/nvim-web-devicons', opt = false, default = true }
+
     -- theme - github
     use ({ 'projekt0n/github-nvim-theme' })
 
@@ -55,7 +57,7 @@ packer.startup(
     -- status line
     use {
       'nvim-lualine/lualine.nvim',
-      requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+      requires = { 'nvim-tree/nvim-web-devicons' }
     }
 
     -- bufferline
@@ -92,7 +94,7 @@ packer.startup(
     use {
         'crusj/bookmarks.nvim',
         branch = 'main',
-        requires = { 'kyazdani42/nvim-web-devicons' },
+        requires = { 'nvim-tree/nvim-web-devicons' },
         config = function()
             require("bookmarks").setup()
             require("telescope").load_extension("bookmarks")

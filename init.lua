@@ -48,3 +48,4 @@ require('plugin-config.tidy')
 
 -- bookmark support
 require('plugin-config.bookmarks')
+

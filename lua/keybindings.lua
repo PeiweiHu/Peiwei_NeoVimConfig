@@ -11,6 +11,7 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', opt)
 
 -- nvim-tree - open/close file tree
 vim.keymap.set('n', '<F3>', ':NvimTreeToggle<CR>', opt)
+vim.keymap.set('n', '<F4>', ':NvimTreeFindFile<CR>', opt)
 
 -- telescope
 vim.keymap.set('n', '<F7>', ':Telescope oldfiles<CR>', opt)
