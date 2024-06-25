@@ -47,6 +47,7 @@ packer.startup(
     -- enhance the lsp experience
     use ({
         'nvimdev/lspsaga.nvim',
+        commit = 'db74412e0282505ea1e63a42060728fb74c1968e',
         after = 'nvim-lspconfig',
         config = function()
             require('lspsaga').setup({})
